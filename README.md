@@ -24,7 +24,7 @@ DashScope 官方 API。API Key 只保存在本机 `settings.json`，服务只监
 要求：Python 3.10+（需要去水印时建议 3.12+，因为 Paddle / VSR 对版本更敏感）。
 
 ```bash
-git clone <your-repo-url> wanxiang-console
+git clone https://github.com/ninpotr/wanxiang-console.git
 cd wanxiang-console
 python -m venv .venv
 # Windows
