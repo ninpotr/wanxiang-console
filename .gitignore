@@ -1,0 +1,35 @@
+# secrets / local config
+settings.json
+settings.json.bak
+.env
+
+# runtime data
+outputs/
+_staging/
+logs/
+_investigate/
+_upscale/
+_watermark/
+
+# local optional dependencies
+video-subtitle-remover/
+tools/bin/
+*.har
+
+# third-party skill text (download it yourself)
+skills/wan3-pe/SKILL.md
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# editor / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

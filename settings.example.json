@@ -1,0 +1,26 @@
+{
+  "api_key": "",
+  "region": "beijing",
+  "endpoint_style": "shared",
+  "workspace_id": "",
+  "model": "wan3.0-video",
+  "output_dir": "outputs",
+  "poll_interval_seconds": 15,
+  "download_retries": 3,
+  "keep_reference_copies": true,
+  "prompt_helper": {
+    "enabled": false,
+    "model": "qwen-plus",
+    "vision_model": "qwen-vl-max-latest",
+    "read_images": true
+  },
+  "voice": {
+    "enabled": false,
+    "service_python": "",
+    "service_script": "",
+    "service_url": "http://127.0.0.1:9880",
+    "model_dir": "",
+    "auto_start": false,
+    "idle_unload_seconds": 600
+  }
+}
