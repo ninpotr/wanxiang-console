@@ -34,6 +34,12 @@ pytest -q tests
   去 `SETUP.md` 的哪一节，而不是静默降级
 - 前端改动涉及缓存时，使用 `?v=` 或现有的版本戳机制
 
+## CI
+
+GitHub Actions 模板在 [docs/ci-tests.yml](docs/ci-tests.yml)。复制到
+`.github/workflows/tests.yml` 即可启用（需要带 `workflow` 权限的 token 才能推送
+workflow 文件）。
+
 ## 提交 PR
 
 1. 从 `main` 开分支；
